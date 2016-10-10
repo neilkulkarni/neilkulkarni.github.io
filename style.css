@@ -1,0 +1,274 @@
+body {
+    background-color: #eeffee;
+}
+
+@media screen and (max-width: 920px) {
+    #sectionsLarge {
+        display: none;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    #sectionsSmall {
+        display: none;
+    }
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    height: 46px;
+    top: 0px;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.menu li {
+    display: inline-block;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    padding-top: 5px;
+    font-size: 28px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu li a:link {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+.menu li a:visited {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #e4af24;
+    
+    transition: all ease 0.3s;
+}
+
+.menu li a:active {
+    color: #e4af24;
+}
+
+#icons {
+    display: inline-block;
+    position: fixed;
+    right: 2%;
+    top: 0.2%;
+}
+
+.social#linkedinLink {
+    background-image: url(In.png);
+    height: 28px;
+    width: 28px;
+    
+    position: fixed;
+    right: 4%;
+    
+    transition: all ease 0.3s;
+    transition: ease-out 0.3s;
+}
+
+.social#githubLink {
+    background-image: url(GitHub.png);
+    height: 32px;
+    width: 32px;
+    
+    position: fixed;
+    right: 8%;
+    
+    transition: all ease 0.3s;
+    transition: ease-out 0.3s;
+}
+
+.social#githubLink:hover {
+    background-image: url('GithubColored.png');
+}
+
+.social#githubLink:active {
+    background-image: url('GithubColored.png');
+}
+
+.social#linkedinLink:hover {
+    background-image: url(InColored.png);
+}
+
+.social#linkedLink:active {
+    background-image: url(InColored.png);
+}
+
+#header {
+    height:  62px;
+}
+
+
+.page {
+    width: inherit;
+}
+
+#home {
+    background-image: url(profile.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.indentedText {
+    text-indent: 40px;
+}
+
+#education {
+    background-color: #fff6d1;
+    min-height: 100vh;
+}
+
+#educationCode {
+    min-width: 400px;
+    width: 80%;
+    padding-top: 10%;
+    display: block;
+    margin: auto;
+}
+
+#educationText {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    right: 5%;
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-size-adjust: auto;
+}
+
+#educationImage {
+    width: 100%;
+}
+
+.redText {
+    color: #990000;
+}
+
+#experience {
+    background-color: #ffe7df;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#experienceText {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    width: 60%;
+    right: 5%;
+    float:left;
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-size-adjust: auto;
+}
+
+#quickenImage {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+    max-width: 40%;
+    max-height: 1250px;
+    
+    overflow: hidden;
+}
+
+#projects {
+    background-color: #eeffee;
+    min-height: 100vh;
+}
+
+#projectsPortfolioText {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    right: 5%;
+    text-align: center;
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-size-adjust: auto;
+}
+
+#encryptrImage {
+    min-width: 400px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#progressImage {
+    min-width: 400px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#projectsEncryptrText {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    right: 5%;
+    text-align: center;
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-size-adjust: auto;
+}
+
+#projectsProgressText {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    right: 5%;
+    text-align: center;
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-size-adjust: auto;
+}
+
+#resume {
+    background-color: #e0fbff;
+}
+
+#resumeImage {
+    padding: 5%;
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
