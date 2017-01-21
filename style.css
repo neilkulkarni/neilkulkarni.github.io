@@ -1,57 +1,41 @@
 body {
-    background-color: #fff; /* For browsers that do not support gradients */
-    /*background: -webkit-linear-gradient(-45deg, red, white); /* For Safari 5.1 to 6.0 */
-    /*background: -o-linear-gradient(-45deg, red, white); /* For Opera 11.1 to 12.0 */
-    /*background: -moz-linear-gradient(-45deg, red, white); /* For Firefox 3.6 to 15 */
-    /*background: linear-gradient(-45deg, white, #ffe7df); /* Standard syntax */
-    
-    font-size: 24px;
+    background-color: #eeffee;
 }
 
-@media screen and (max-width: 842px) {
+@media screen and (max-width: 920px) {
     #sectionsLarge {
         display: none;
+        width: 100%;
     }
 }
 
-@media screen and (min-width: 843px) {
-    #menuToggle {
-        display: none;
-    }
-    #mobileOverlay {
-        display: none;
-    }
-    #mobileWrapper {
-        display: none;
-    }
-    #mobileNav {
+@media screen and (min-width: 920px) {
+    #sectionsSmall {
         display: none;
     }
 }
-
 
 .menu {
     position: fixed;
     width: 100%;
-    height: 68px;
+    height: 46px;
     top: 0px;
     z-index: 1;
-    background-color: #222;
+    background-color: black;
+    opacity: 0.6;
 }
 
 .menu li {
     display: inline-block;
     
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     
-    padding-top: 15px;
-    font-size: 125%;
+    padding-top: 5px;
+    font-size: 28px;
     font-family: 'Catamaran', sans-serif;
     text-align: center;
     vertical-align: middle;
-    
-    color: white;
 }
 
 .menu li a:link {
@@ -78,245 +62,60 @@ body {
     color: #e4af24;
 }
 
-#social {
+#icons {
     display: inline-block;
     position: fixed;
-    right: 1%;
+    right: 2%;
     top: 0.2%;
-    padding-right: 15px;
 }
 
-.social#emailLink {
-    background-image: url(Gmail_BW.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.social#linkedinLink {
+    background-image: url(In.png);
+    height: 28px;
+    width: 28px;
+    
+    position: fixed;
+    right: 4%;
+    
+    transition: all ease 0.3s;
+    transition: ease-out 0.3s;
+}
+
+.social#githubLink {
+    background-image: url(GitHub.png);
     height: 32px;
     width: 32px;
     
     position: fixed;
+    right: 8%;
     
     transition: all ease 0.3s;
     transition: ease-out 0.3s;
 }
 
-.social#facebookLink {
-    background-image: url(Facebook_BW.png);
-    background-size: 28px 28px;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 32px;
-    width: 32px;
-    
-    position: fixed;
-    
-    transition: all ease 0.3s;
-    transition: ease-out 0.3s;
+.social#githubLink:hover {
+    background-image: url('GithubColored.png');
 }
 
-.social#youtubeLink {
-    background-image: url(YouTube_BW.png);
-    background-size: 32px 22.5px;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 32px;
-    width: 32px;
-    
-    position: fixed;
-    
-    transition: all ease 0.3s;
-    transition: ease-out 0.3s;
+.social#githubLink:active {
+    background-image: url('GithubColored.png');
 }
 
-.social#emailLink:hover {
-    background-image: url(Gmail_Color.png);
+.social#linkedinLink:hover {
+    background-image: url(InColored.png);
 }
 
-.social#emailLink:active {
-    background-image: url(Gmail_Color.png);
+.social#linkedLink:active {
+    background-image: url(InColored.png);
 }
-
-.social#facebookLink:hover {
-    background-image: url(Facebook_Color.png);
-}
-
-.social#facebookLink:active {
-    background-image: url(Facebook_Color.png);
-}
-
-.social#youtubeLink:hover {
-    background-image: url(YouTube_Color.png);
-}
-
-.social#youtubeLink:active {
-    background-image: url(YouTube_Color.png);
-}
-
-
-.menuToggle {
-    background-color: #222;
-    display: inline-block;
-    cursor: pointer;
-    padding-top: 7px;
-}
-
-.bar1, .bar2, .bar3 {
-    width: 40px;
-    height: 5px;
-    background-color: white;
-    margin: 5px 0;
-    transition: 0.4s;
-}
-
-/* Rotate first bar */
-
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-7px, 6px) ;
-    transform: rotate(-45deg) translate(-7px, 6px) ;
-}
-
-
-/* Fade out the second bar */
-
-.change .bar2 {
-    opacity: 0;
-}
-
-
-/* Rotate last bar */
-
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-}
-
-
-#mobileOverlay{
-    position: fixed;
-    width: 100%;
-    height: 101%;
-    
-    padding-top: 60px;
-    
-    display: none;
-    
-    overflow: auto;
-    
-    background-color: #222;
-}
-
-#mobileWrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    
-    display: table;
-    box-sizing: border-box;
-    text-align: center;
-    
-    overflow: auto;
-}
-
- #mobileNav {
-    font-size: 250%;
-    line-height: 250%;
-    font-family: 'Catamaran', sans-serif;
-    text-align: center;
-    
-    vertical-align: middle;
-    display: table-cell;
-}
-
-.mobileButton {
-    display: block;
-    overflow: scroll;
-}
-
-.mobileButton a:link {
-    text-decoration: none;
-    text-decoration-line: none;
-    transform-style:preserve-3d; 
-    color: white;
-}
-
-.mobileButton a:visited {
-    text-decoration: none;
-    text-decoration-line: none;
-    color: white;
-}
-
-.mobileButton a:hover {
-    text-decoration: none;
-    text-decoration-line: none;
-    color: #e4af24;
-    
-    transition: all ease 0.3s;
-    transition: ease-out 0.3s;
-}
-
-.mobileButton a:active {
-    text-decoration: none;
-    text-decoration-line: none;
-    color: #e4af24;
-}
-
-.show {
-    display: table;
-}
-
-.hide {
-    display: none;
-}
-
 
 #header {
     height:  62px;
 }
 
-#innerWrapper {
-    margin-left: 5%;
-    margin-right: 5%;
-    
-    line-height: 1.2;
-}
 
-.header500 {
-    display: block;
-    margin: auto;
-    
-    padding-top: 75px;
-    
-    font-size: 500%;
-    font-family: 'Catamaran', sans-serif;
-    text-align: center;
-    
-    text-transform: uppercase;
-}
-
-.header300 {
-    display: block;
-    margin: auto;
-    
-    padding-top: 25px;
-    
-    font-size: 300%;
-    font-family: 'Catamaran', sans-serif;
-    text-align: center;
-    
-    text-transform: uppercase;
-}
-
-.header200 {
-    display: block;
-    margin: auto;
-    
-    padding-top: 25px;
-    
-    font-size: 200%;
-    font-family: 'Catamaran', sans-serif;
-    text-align: center;
-    
-    text-transform: uppercase;
+.page {
+    width: inherit;
 }
 
 #home {
@@ -332,139 +131,144 @@ body {
     text-indent: 40px;
 }
 
-#music {
-    padding-bottom: 62px;
+#education {
+    background-color: #fff6d1;
+    min-height: 100vh;
 }
 
-.youtubeMusic {
+#educationCode {
+    min-width: 400px;
+    width: 80%;
+    padding-top: 10%;
     display: block;
     margin: auto;
+}
+
+#educationText {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    right: 5%;
     
-    padding-top: 25px;
-    font-size: 150%;
     font-family: 'Catamaran', sans-serif;
-    text-align: center;
+    font-size: 18px;
+    font-size-adjust: auto;
 }
 
-.youtubeEvent {
-    display: block;
-    margin: auto;
+#educationImage {
+    width: 100%;
+}
+
+.redText {
+    color: #990000;
+}
+
+#experience {
+    background-color: #ffe7df;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#experienceText {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    width: 60%;
+    right: 5%;
+    float:left;
     
-    font-size: 125%;
     font-family: 'Catamaran', sans-serif;
-    text-align: center;
+    font-size: 18px;
+    font-size-adjust: auto;
 }
 
-.fancyButton {
+#quickenImage {
+    padding-top: 10%;
+    padding-bottom: 10%;
     display: block;
-    margin: auto;
-    
-    font-size: 100%;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    
-    color: white;
-}
-
-.youtubeVideo {
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+    
+    max-width: 40%;
+    max-height: 1250px;
+    
+    overflow: hidden;
 }
 
-.youtubeVideo iframe {
-    position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+#projects {
+    background-color: #eeffee;
+    min-height: 100vh;
 }
 
-.buttonText {   
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: #990000;
-    background-color: transparent;
-    
-    padding: 20px 30px;
-    
-    text-decoration-color: #990000;
-    text-decoration: none;
-    text-decoration-line: none;
-    color: #990000;
-}
-
-.buttonText:link {
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: #990000;
-    background-color: transparent;
-    
-    padding: 20px 30px;
-    
-    text-decoration: none;
-    text-decoration-line: none;
-    color: #990000;
-}
-
-.buttonText:visted {
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: #990000;
-    background-color: transparent;
-    
-    padding: 20px 30px;
-    
-    text-decoration: none;
-    text-decoration-line: none;
-    color: #990000;
-}
-
-.buttonText:hover {
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: #990000;
-    background-color: #990000;
-    
-    padding: 20px 30px;
-    
-    text-decoration: none;
-    text-decoration-line: none;
-    color: white;
-    
-    transition: all ease 0.3s;
-    transition: ease-out 0.3s;
-}
-
-.buttonText:active {
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 40px;
-    border-color: #990000;
-    background-color: #990000;
-    
-    padding: 20px 30px;
-    
-    text-decoration: none;
-    text-decoration-line: none;
-    color: white;
-    
-    transition: all ease 0.3s;
-    transition: ease-out 0.3s;
-}
-
-
-#alumni {
-    font-size: 100%;
-    font-family: 'Catamaran', sans-serif;
+#projectsPortfolioText {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    right: 5%;
     text-align: center;
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-size-adjust: auto;
 }
 
-#alumniList {
-    column-count: 2;
+#encryptrImage {
+    min-width: 400px;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#progressImage {
+    min-width: 400px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#projectsEncryptrText {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    right: 5%;
+    text-align: center;
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-size-adjust: auto;
+}
+
+#projectsProgressText {
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    right: 5%;
+    text-align: center;
+    
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-size-adjust: auto;
+}
+
+#resume {
+    background-color: #e0fbff;
+}
+
+#resumeImage {
+    padding: 5%;
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
