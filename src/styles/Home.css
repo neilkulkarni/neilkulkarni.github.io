@@ -1,0 +1,68 @@
+.Home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.Home img {
+  border-radius: 50%;
+  min-width: 18rem;
+  max-width: 30%;
+  max-height: 40rem;
+  margin-top: 5vh;
+}
+
+.Home .HomePageName {
+  font-size: 56px;
+  letter-spacing: 0.2rem;
+  margin-top: 5vh;
+}
+
+.Home .HomePageButtonContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0vw 20vw;
+  margin-top: 5vh;
+}
+
+.Home .HomePageButton {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #cecece;
+  font-size: 30px;
+  letter-spacing: 0.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 15px;
+}
+
+.Home .HomePageButton:hover {
+  background-color: #bebebe;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Home img {
+    max-width: 55%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .Home img {
+    margin-top: 15vh;
+  }
+
+  .Home .HomePageName {
+    font-size: 36px;
+  }
+  
+  .Home .HomePageButton {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0vw 5vw;
+  }
+}

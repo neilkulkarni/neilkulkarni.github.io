@@ -1,0 +1,102 @@
+.MusicWrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+
+.Container {
+  display: flex;
+  height: inherit;
+  overflow-x: auto;
+}
+
+.CenteredContainer {
+  display: flex;
+  height: inherit;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.Audio {
+  width: 252px;
+  height: 252px;
+  margin-right: 50px;
+  overflow-y: hidden;
+}
+
+.Audio img {
+  height: inherit;
+  width: inherit;
+}
+
+.AudioPopover {
+  background-color: #F0F3F3;
+  width: 45vh;
+  box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.8), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+.AudioPopover img {
+  width: inherit;
+  height: initial;
+}
+
+.AudioPopover .PlatformContainer {
+  padding: 2vh 0;
+  justify-content: space-around;
+}
+
+.Video {
+  margin-right: 5vw;
+}
+
+.frame {
+  width: 448px;
+  height: 252px;
+  max-width: 64vw;
+  max-height: 36vw;
+}
+
+.CenteredContainer .Audio {
+  margin: 0;
+}
+
+.CenteredContainer .Video {
+  margin: 0;
+}
+
+.PlatformContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0vh 20vw 1vh 20vw;
+}
+
+.PlatformContainer img {
+  height: 50px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 720px) {
+  .Audio {
+    width: 20vh;
+    height: 20vh;
+    margin-right: 50px;
+  }
+  
+  .AudioPopover {
+    width: 80vw;
+  }
+
+  .PlatformContainer {
+    padding: 0vh 0vw 1vh 0vw;
+  }
+
+  .AudioPopover .PlatformContainer {
+    justify-content: space-around;
+  }
+
+  .PlatformContainer img {
+    height: 35px;
+    width: 35px;
+  }
+}
