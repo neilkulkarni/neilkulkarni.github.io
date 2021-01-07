@@ -1,0 +1,44 @@
+{
+  "originals": [
+    {
+      "__type": "VIDEO",
+      "link": "https://www.youtube.com/embed/BoqwehO-21s"
+    }
+  ],
+  "arrangements": [
+    {
+      "__type": "AUDIO",
+      "amazonMusic": "https://music.amazon.com/albums/B07J9PP4YS?do=play",
+      "appleMusic": "https://geo.music.apple.com/us/album/_/1438697319?mt=1&app=music&ls=1&at=1000lHKX",
+      "spotify": "https://open.spotify.com/album/3JIRL5wQlHjmhkUw7xsSjM",
+      "youtube": "https://www.youtube.com/user/PurdueTaal",
+      "youtubeMusic": "https://music.youtube.com/playlist?list=OLAK5uy_mezEXMOGC2e436ONP3Vbn7DPQg7eDsMa0"
+    }
+  ],
+  "covers": [
+    {
+      "__type": "VIDEO",
+      "link": "https://www.youtube.com/embed/uYPcW1cGk-Y"
+    },
+    {
+      "__type": "VIDEO",
+      "link": "https://www.youtube.com/embed/_J1pQMMmIG8"
+    },
+    {
+      "__type": "VIDEO",
+      "link": "https://www.youtube.com/embed/SFgZi94l-qY"
+    },
+    {
+      "__type": "VIDEO",
+      "link": "https://www.youtube.com/embed/qPodg4gumV0"
+    },
+    {
+      "__type": "VIDEO",
+      "link": "https://www.youtube.com/embed/ajjv2GPOGSI"
+    },
+    {
+      "__type": "VIDEO",
+      "link": "https://www.youtube.com/embed/S_1he4c6TIA"
+    }
+  ]
+}

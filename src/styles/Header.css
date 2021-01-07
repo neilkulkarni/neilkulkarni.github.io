@@ -1,0 +1,69 @@
+.HeaderContainer {
+  display: grid;
+  grid-template-columns: 5vw 30vw auto 40vw 5vw;
+  grid-template-rows: 10vh auto;
+  align-items: center;
+  font-size: 28px;
+  letter-spacing: 0.2rem;
+}
+
+.SectionHeader {
+  font-size: 24px;
+  letter-spacing: 0.2rem;
+  padding: 18px 0px;
+}
+
+a {
+  color: #424242;
+  text-decoration: none;
+}
+
+.ActivePage {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.PageHeader {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: flex;
+  justify-content: left;
+}
+
+.PageHeaderItem {
+  padding-right: 2vw;
+}
+
+.HomeHeader {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  justify-self: end;
+  display: flex;
+  align-items: center;
+}
+
+.NameHeader {
+  padding-right: 1vw;
+}
+
+.SectionBreak {
+  margin: 3vh 0vw;
+}
+
+@media only screen and (max-width: 720px) {
+  .HeaderContainer {
+    font-size: 24px;
+  }
+  
+  .SectionHeader {
+    font-size: 20px;
+  }
+  
+  .PageHeaderItem {
+    padding-right: 3vw;
+  }
+  
+  .NameHeader {
+      display: none;
+  }
+}
