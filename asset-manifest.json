@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/neilkulkarni.github.io/static/css/main.fcd9256c.chunk.css",
-    "main.js": "/neilkulkarni.github.io/static/js/main.459d2b40.chunk.js",
-    "main.js.map": "/neilkulkarni.github.io/static/js/main.459d2b40.chunk.js.map",
-    "runtime-main.js": "/neilkulkarni.github.io/static/js/runtime-main.28093ce3.js",
-    "runtime-main.js.map": "/neilkulkarni.github.io/static/js/runtime-main.28093ce3.js.map",
-    "static/js/2.c3fc67b3.chunk.js": "/neilkulkarni.github.io/static/js/2.c3fc67b3.chunk.js",
-    "static/js/2.c3fc67b3.chunk.js.map": "/neilkulkarni.github.io/static/js/2.c3fc67b3.chunk.js.map",
-    "static/js/3.777dc4db.chunk.js": "/neilkulkarni.github.io/static/js/3.777dc4db.chunk.js",
-    "static/js/3.777dc4db.chunk.js.map": "/neilkulkarni.github.io/static/js/3.777dc4db.chunk.js.map",
-    "index.html": "/neilkulkarni.github.io/index.html",
-    "static/css/main.fcd9256c.chunk.css.map": "/neilkulkarni.github.io/static/css/main.fcd9256c.chunk.css.map",
-    "static/js/2.c3fc67b3.chunk.js.LICENSE.txt": "/neilkulkarni.github.io/static/js/2.c3fc67b3.chunk.js.LICENSE.txt",
-    "static/media/Album Cover.169d7e3c.jpg": "/neilkulkarni.github.io/static/media/Album Cover.169d7e3c.jpg",
-    "static/media/Amazon Music.fcc3f42e.png": "/neilkulkarni.github.io/static/media/Amazon Music.fcc3f42e.png",
-    "static/media/Apple Music.2d65b847.png": "/neilkulkarni.github.io/static/media/Apple Music.2d65b847.png",
-    "static/media/Profile.43cac642.jpg": "/neilkulkarni.github.io/static/media/Profile.43cac642.jpg",
-    "static/media/Spotify.4edf1823.png": "/neilkulkarni.github.io/static/media/Spotify.4edf1823.png",
-    "static/media/YouTube.ca3f2297.png": "/neilkulkarni.github.io/static/media/YouTube.ca3f2297.png"
+    "main.css": "/neilkulkarni.com/static/css/main.fcd9256c.chunk.css",
+    "main.js": "/neilkulkarni.com/static/js/main.997fb127.chunk.js",
+    "main.js.map": "/neilkulkarni.com/static/js/main.997fb127.chunk.js.map",
+    "runtime-main.js": "/neilkulkarni.com/static/js/runtime-main.ff856ce9.js",
+    "runtime-main.js.map": "/neilkulkarni.com/static/js/runtime-main.ff856ce9.js.map",
+    "static/js/2.c3fc67b3.chunk.js": "/neilkulkarni.com/static/js/2.c3fc67b3.chunk.js",
+    "static/js/2.c3fc67b3.chunk.js.map": "/neilkulkarni.com/static/js/2.c3fc67b3.chunk.js.map",
+    "static/js/3.777dc4db.chunk.js": "/neilkulkarni.com/static/js/3.777dc4db.chunk.js",
+    "static/js/3.777dc4db.chunk.js.map": "/neilkulkarni.com/static/js/3.777dc4db.chunk.js.map",
+    "index.html": "/neilkulkarni.com/index.html",
+    "static/css/main.fcd9256c.chunk.css.map": "/neilkulkarni.com/static/css/main.fcd9256c.chunk.css.map",
+    "static/js/2.c3fc67b3.chunk.js.LICENSE.txt": "/neilkulkarni.com/static/js/2.c3fc67b3.chunk.js.LICENSE.txt",
+    "static/media/Album Cover.169d7e3c.jpg": "/neilkulkarni.com/static/media/Album Cover.169d7e3c.jpg",
+    "static/media/Amazon Music.fcc3f42e.png": "/neilkulkarni.com/static/media/Amazon Music.fcc3f42e.png",
+    "static/media/Apple Music.2d65b847.png": "/neilkulkarni.com/static/media/Apple Music.2d65b847.png",
+    "static/media/Profile.43cac642.jpg": "/neilkulkarni.com/static/media/Profile.43cac642.jpg",
+    "static/media/Spotify.4edf1823.png": "/neilkulkarni.com/static/media/Spotify.4edf1823.png",
+    "static/media/YouTube.ca3f2297.png": "/neilkulkarni.com/static/media/YouTube.ca3f2297.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.28093ce3.js",
+    "static/js/runtime-main.ff856ce9.js",
     "static/js/2.c3fc67b3.chunk.js",
     "static/css/main.fcd9256c.chunk.css",
-    "static/js/main.459d2b40.chunk.js"
+    "static/js/main.997fb127.chunk.js"
   ]
 }
