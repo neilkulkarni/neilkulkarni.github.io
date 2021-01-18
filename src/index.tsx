@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/music">
           <Music />
