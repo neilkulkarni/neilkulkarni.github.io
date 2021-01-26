@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.56d65b2f.chunk.css",
-    "main.js": "/static/js/main.d3327b87.chunk.js",
-    "main.js.map": "/static/js/main.d3327b87.chunk.js.map",
+    "main.css": "/static/css/main.f98513b6.chunk.css",
+    "main.js": "/static/js/main.8346313d.chunk.js",
+    "main.js.map": "/static/js/main.8346313d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.38e5e130.js",
     "runtime-main.js.map": "/static/js/runtime-main.38e5e130.js.map",
     "static/js/2.cf83c625.chunk.js": "/static/js/2.cf83c625.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.eff25054.chunk.js": "/static/js/3.eff25054.chunk.js",
     "static/js/3.eff25054.chunk.js.map": "/static/js/3.eff25054.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.56d65b2f.chunk.css.map": "/static/css/main.56d65b2f.chunk.css.map",
+    "static/css/main.f98513b6.chunk.css.map": "/static/css/main.f98513b6.chunk.css.map",
     "static/js/2.cf83c625.chunk.js.LICENSE.txt": "/static/js/2.cf83c625.chunk.js.LICENSE.txt",
     "static/media/Album Cover.169d7e3c.jpg": "/static/media/Album Cover.169d7e3c.jpg",
     "static/media/Amazon Music.fcc3f42e.png": "/static/media/Amazon Music.fcc3f42e.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.38e5e130.js",
     "static/js/2.cf83c625.chunk.js",
-    "static/css/main.56d65b2f.chunk.css",
-    "static/js/main.d3327b87.chunk.js"
+    "static/css/main.f98513b6.chunk.css",
+    "static/js/main.8346313d.chunk.js"
   ]
 }
