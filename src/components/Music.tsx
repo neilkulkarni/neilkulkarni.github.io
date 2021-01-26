@@ -1,6 +1,5 @@
 import assignIn from 'lodash/assign';
 import Header from './Header';
-import Footer from './Footer';
 import MediaContainer from './MediaContainer';
 import PlatformContainer from './PlatformContainer';
 import SectionBreak from './SectionBreak';
@@ -56,8 +55,6 @@ function Music() {
         <SectionBreak />
         <div className='SectionHeader'>Listen more on</div>
         <PlatformContainer />
-        {/* <SectionBreak />
-        <Footer /> */}
       </div>
     </div>
   );

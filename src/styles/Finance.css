@@ -1,0 +1,130 @@
+.FinanceWrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5vh;
+}
+
+/* div {
+  margin-top: 16px;
+} */
+
+input[type=number] {
+  background-color: inherit;
+  text-align: right;
+  width: inherit;
+  padding: 6px 20px;
+  margin: 4px;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  -moz-appearance: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 16px;
+  color: #424242;
+  outline: none; 
+}
+
+input[type=number]:focus {
+  border-bottom: 3px solid #797979;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+select {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #ccc 50%),
+    linear-gradient(135deg, #ccc 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) calc(1em - 2px),
+    calc(100% - 14px) calc(1em - 2px);
+  background-size:
+    6px 6px,
+    6px 6px;
+  background-repeat: no-repeat;
+  background-color: inherit;
+  width: 175px;
+  padding: 6px 20px;
+  margin: 4px;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 16px;
+  color: #424242;
+  text-align: right;
+  outline: none;
+}
+
+select:focus {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #797979 50%),
+    linear-gradient(135deg, #797979 50%, transparent 50%);
+  border-bottom: 3px solid #797979;
+}
+
+input[type=submit] {
+  background-color: #cecece;
+  padding: 12px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 0.2rem;
+}
+
+input[type=submit]:hover {
+  background-color: #bebebe;
+  cursor: pointer;
+}
+
+.CalculatorWrapper {
+  width: 50%;
+  margin: 0 25%;
+  text-align: left;
+}
+
+.CalculatorWrapper .QnA {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.CalculatorWrapper .Question {
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+}
+
+.CalculatorWrapper .Answer {
+  width: 100%;
+}
+
+.ComputedValue {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.Description {
+  font-size: 14px;
+  font-weight: initial;
+  padding: 4px 0;
+}
+
+.PaddingAboveFooter {
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 720px) {
+  .CalculatorWrapper {
+    width: 70%;
+    margin: 0 15%;
+  }
+}

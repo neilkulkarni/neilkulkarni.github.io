@@ -1,13 +1,16 @@
 import Header from './Header';
 import SectionBreak from './SectionBreak';
-import '../styles/Header.css';
+import Calculator from './Calculator';
+import '../styles/Finance.css';
 
 function Finance() {
   return (
     <div>
       <Header />
       <SectionBreak />
-      <div className='SectionHeader' style={{ textAlign: 'center', padding: '30vh 0' }}>UNDER CONSTRUCTION</div>
+      <div className='SectionHeader'>CALCULATORS</div>
+      <Calculator />
+      <div className={'PaddingAboveFooter'} />
     </div>
   );
 }
