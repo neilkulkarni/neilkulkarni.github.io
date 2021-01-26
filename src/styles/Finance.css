@@ -69,16 +69,17 @@ select:focus {
   border-bottom: 3px solid #797979;
 }
 
-input[type=submit] {
+.SubmitButton {
   background-color: #cecece;
-  padding: 12px 20px;
+  text-align: center;
+  padding: 12px 0;
   margin: 20px 0;
   border: none;
   border-radius: 8px;
   letter-spacing: 0.2rem;
 }
 
-input[type=submit]:hover {
+.SubmitButton:hover {
   background-color: #bebebe;
   cursor: pointer;
 }

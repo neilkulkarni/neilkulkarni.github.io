@@ -168,13 +168,9 @@ class Calculator extends React.Component<CalculatorProps, CalculatorState> {
               onChange={this.handleInputChange}
             />
           </div>
-          <div></div>
-          <input
-            ref={this.fieldRef}
-            className={'Answer'}
-            type='submit'
-            value='CALCULATE'
-          />
+          <div ref={this.fieldRef} className='SubmitButton' onClick={this.handleSubmit}>
+            CALCULATE
+          </div>
         </form >
 
         {this.state && this.state.retirementAccountBalance &&
