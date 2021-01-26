@@ -1,5 +1,5 @@
 import React from 'react';
-import { calculateCompoundGrowth, getPaymentFrequency, getContributionPercentages, adjustValueForInflation } from '../utils/financeUtils';
+import { calculateCompoundGrowth, getPaymentFrequency, adjustValueForInflation } from '../utils/financeUtils';
 
 interface CalculatorProps { }
 
@@ -86,7 +86,6 @@ class Calculator extends React.Component<CalculatorProps, CalculatorState> {
               max={110}
               required={true}
               onChange={this.handleInputChange}
-              defaultValue={23}
             />
           </div>
           <div className='QnA'>
@@ -101,7 +100,6 @@ class Calculator extends React.Component<CalculatorProps, CalculatorState> {
               max={110}
               required={true}
               onChange={this.handleInputChange}
-              defaultValue={65}
             />
           </div>
           <div className='QnA'>
@@ -115,7 +113,6 @@ class Calculator extends React.Component<CalculatorProps, CalculatorState> {
               min={0}
               required={true}
               onChange={this.handleInputChange}
-              defaultValue={52000}
             />
           </div>
           <div className='QnA'>
@@ -130,7 +127,6 @@ class Calculator extends React.Component<CalculatorProps, CalculatorState> {
               max={19500}
               required={true}
               onChange={this.handleInputChange}
-              defaultValue={19500}
             />
           </div>
           <div className='QnA'>
@@ -145,7 +141,6 @@ class Calculator extends React.Component<CalculatorProps, CalculatorState> {
               max={6000}
               required={true}
               onChange={this.handleInputChange}
-              defaultValue={6000}
             />
           </div>
           <div className='QnA'>
@@ -153,9 +148,9 @@ class Calculator extends React.Component<CalculatorProps, CalculatorState> {
               How often do you get paid?
             </div>
             <select className={'Answer'} name='paymentFrequency' onChange={this.handleInputChange}>
-              <option value={'MONTHLY'}>Monthly</option>
-              <option value={'SEMI_MONTHLY'}>Semi-Monthly</option>
               <option value={'BIWEEKLY'}>Biweekly</option>
+              <option value={'SEMI_MONTHLY'}>Semi-Monthly</option>
+              <option value={'MONTHLY'}>Monthly</option>
               <option value={'WEEKLY'}>Weekly</option>
             </select>
           </div>
@@ -171,7 +166,6 @@ class Calculator extends React.Component<CalculatorProps, CalculatorState> {
               max={100}
               required={true}
               onChange={this.handleInputChange}
-              defaultValue={7}
             />
           </div>
           <div></div>
